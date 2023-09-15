@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Landing page</title>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="https://kit.fontawesome.com/8cef558df7.js" crossorigin="anonymous"></script> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap">
+    </head>
+
+    <body>
+        <header id="header">
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Trumpet Logo" id="header-img">
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#nav-link1">Features</a></li>
+                    <li><a class="nav-link" href="#video">How it Works</a></li>
+                    <li><a class="nav-link" href="#nav-link3">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+            <h1 class="title-text">Handcrafted, home-made masterpieces</h1>
+            <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+                <input class="email" id="email" name="email" type="email" placeholder="Enter your email address" required>
+                <br>
+                <input class="submit" id="submit" type="submit" value="GET STARTED">
+            </form>
+
+        <div class="promotions" id="nav-link1">
+            <i class="fa fa-fire fa-3x" style="color: #ff8647;"></i>
+            <div class= "icon-caption">
+            <h1>Premium Materials</h1>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+            <i class="fa fa-truck fa-3x" style="color: #ff8647;"></i>
+            <div class= "icon-caption">
+            <h1>Fast Shipping</h1>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+            <i class="fa fa-battery-full fa-3x" style="color: #ff8647;"></i>
+            <div class= "icon-caption">
+            <h1>Quality Assurance</h1>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+        </div>
+        <div class="vid">
+            <iframe id="video" src="https://www.youtube.com/embed/y8Yv4pnO7qc">
+            </iframe>
+        </div>
+        <div class="flex-container" id="nav-link3">
+            <div class="box">
+                <h4 class="box-title">Tenor Trombone</h4>
+                <h2>$600</h2>
+                <p>Lorem ipsum.<br>
+                    Lorem ipsum.<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.</p>
+                    <button class="price-select">Select</button>
+            </div>
+            <div class="box">
+                <h4 class="box-title">Bass Trombone</h4>
+                <h2>$900</h2>
+                <p>Lorem ipsum.<br>
+                    Lorem ipsum.<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.</p>
+                    <button class="price-select">Select</button>
+            </div>
+            <div class="box">
+                <h4 class="box-title">Valve Trombone</h4>
+                <h2>$1200</h2>
+                <p>Plays similar to a Trumpet<br>
+                    Great for Jazz Bands<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.</p>
+                    <button class="price-select">Select</button>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-links">
+                <ul>
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <p class="footer-caption">Copyright N/A</p>
+        </footer>
+    </body>
+</html>
